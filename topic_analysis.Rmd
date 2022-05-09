@@ -214,6 +214,15 @@ result <- FindTopicsNumber(
 FindTopicsNumber_plot(result)
 ```
 
+**From this plot, we can conclude that the optimal number of topics for Griffiths2004 is 14,for Deveaud2014 the optimal number of topics peaks at 10 but also 14, and for CaoJuan2009 and Arun2010 it is also 14 topics. Thus based on these metrics, 14 is the optimal number of topics.**
+
+
+Metrics used for Comparison
+Arun2010: The measure is computed in terms of symmetric KL-Divergence of salient distributions that are derived from these matrix factor and is observed that the divergence values are higher for non-optimal number of topics (maximize)
+
+CaoJuan2009: method of adaptively selecting the best LDA model based on density.(minimize)
+
+Griffths: To evaluate the consequences of changing the number of topics T, used the Gibbs sampling algorithm to obtain samples from the posterior distribution over z at several choices of T(minimize)
 
 
 
