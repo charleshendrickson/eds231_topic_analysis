@@ -2,16 +2,15 @@
 title: "topic_analysis"
 author: "Charles Hendrickson"
 date: "5/9/2022"
-output: html_document
+output:
+  pdf_document: default
+  latex_engine: xelatex
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
-
----
-title: "Topic 6: Topic Analysis"
----
 
 ```{r packages}
 library(here)
